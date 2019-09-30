@@ -1,18 +1,19 @@
-# Fabric Example Mod - Kotlin
+# Fabric WHOIS
+A mod that allows you to see WHOIS data in Minecraft.
 
-## Setup
+# How it works
+Simply, a request is sent via raw sockets to the IANA WHOIS server.
+From there, it's just captured and returned to the user as command output :)
 
-0. Create a new mod repository by pressing the "Use this template" button and clone the created repository.
+# FAQ
+## "Can I use this in my modpack?"
+Yes. Don't ask, just use it.
 
-1. Edit build.gradle and mod.json to suit your needs.
-    * The "mixins" object can be removed from mod.json if you do not need to use mixins.
-    * Please replace all occurences of "modid" with your own mod ID - sometimes, a different string may also suffice.
-2. Run the following command:
+## "Why is this in Fabric and not Forge?"
+I wanted to tinker around with Fabric and this was the result.
 
-```
-./gradlew idea
-```
+## "How do I report a bug?"
+Make a issue in the GitHub. (Are there even bugs in this mod? I don't know.)
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+# License
+Public Domain
